@@ -1,0 +1,29 @@
+package com.company;
+import java.util.Scanner;
+
+public class CWH_05_quiz1 {
+    public static void main(String[] args) {
+
+        System.out.println("the marks from 5 subjects are-");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("the marks in subject 1");
+        int a =sc.nextInt();
+        System.out.println("the marks in subject 2");
+        int b =sc.nextInt();
+        System.out.println("the marks in subject 3");
+        int c =sc.nextInt();
+        System.out.println("the marks in subject 4");
+        int d =sc.nextInt();
+        System.out.println("the marks in subject 5");
+        int e =sc.nextInt();
+        int total = a+b+c+d+e;
+        System.out.println("The total number is");
+        System.out.println(total);
+        float percentage = (total*100)/500;
+        System.out.println("The percentage of the student is");
+        System.out.println(percentage);
+
+
+
+    }
+}
